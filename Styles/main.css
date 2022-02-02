@@ -1,0 +1,18 @@
+@import url(/Styles/colors.css);
+@import url(/Styles/reset.css);
+@import url(/Styles/general.css);
+
+.header {
+    color: var(--snow);
+    background-color: var(--darc);
+}
+
+.container {
+    color: var(--darc);
+    background-color: var(--snow);
+}
+
+.footer {
+    color: var(--snow);
+    background-color:var(--darc);
+}
