@@ -1,10 +1,97 @@
 @import url(/Styles/colors.css);
 @import url(/Styles/reset.css);
 @import url(/Styles/general.css);
-
+:root{
+    font-size: 16px;
+}
 .header {
     color: var(--snow);
     background-color: var(--darc);
+    padding: 20px;
+    height: 3rem;
+
+    /* Animation time */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.drawer {
+    position: relative;
+    width: 18.75rem;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    height: 70%;
+}
+
+.drawer .navigation {
+    width: 18.75rem;
+    height: 100%;
+    background-color: var(--snow);
+    color: var(--darc);
+    border-radius: 5px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    
+}
+.drawer .navigation ul{
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.drawer .navigation ul li{
+    width: 100%;
+}
+
+.drawer .navigation ul li:hover{
+    background-color: #efefef;
+}
+
+.drawer .navigation ul li a{
+    width: 100%;
+    display: flex;
+    color: var(--primary);
+    font-weight: 700;
+}
+.drawer .navigation ul li a .fa{
+    font-size: larger;
+}
+.drawer .navigation ul li a .smol-ico{
+    position:relative;
+    min-width: 5rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: x-large;
+    margin-right: 9px;
+}
+.drawer .navigation ul li a .smol-title{
+    line-height: 4rem;
+    white-space: nowrap;
+}
+
+.btn-toggle-drawer{
+    background-color: var(--primary);
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: calc(50% - 1.5rem);
+    right: -2.5rem;
+    border: 3px solid white;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    cursor: pointer;
+}
+.btn-toggle-drawer .closed-ico{
+    display: none;
+}
+
+.btn-toggle-drawer .ico{
+    position: absolute;
+    left: 10px;
+    width: 2rem;
+    font-size: 2rem;
+    color: var(--snow);
 }
 
 .container {
@@ -14,5 +101,5 @@
 
 .footer {
     color: var(--snow);
-    background-color:var(--darc);
+    background-color: var(--darc);
 }
