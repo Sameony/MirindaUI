@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lobster+Two&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&family=Montserrat:wght@400;500;600&family=Poppins&family=Raleway:wght@600&display=swap');
+
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight:500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--tr-gray);
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shadows{
+    box-shadow: 4px 4px 2px rgb(80, 80, 80);
+}
+.shadows:hover{
+    box-shadow: 8px 8px 4px rgb(0, 0, 0);
+}
+body{
+    /* font-family: serif; */
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+}
