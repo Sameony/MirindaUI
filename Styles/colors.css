@@ -1,5 +1,6 @@
 /* Main Colors */
 :root{
+    --dark-prim: #da650c;
     --primary: #FA6C00;
     --lighter-prim: #FFB882;
     --light-prim: #FFAA69;
@@ -11,7 +12,12 @@
 
     /* --secondary: #26A2B3; */
     --lemon: #faf431;
+    --snow:#ffffff;
 
+    --caution: #D0342C;
+    --light-caution: #FF0000 ;
     
+    --success: #4BB543;
+    --lighter-success: #23da23;
 
 }
