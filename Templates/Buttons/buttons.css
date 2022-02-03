@@ -1,13 +1,14 @@
+
 .btn{
     padding: 0.8rem 1.2rem;
     font-weight: 600;
     transition: all 0.3s;
-    border: none;
 }
 
 .btn-primary{
     background-color: var(--primary);
     color: var(--snow);
+    border: 1.2px solid var(--primary);
     
 }
 .btn-primary:hover{
@@ -27,7 +28,7 @@
 .btn-caution{
     color: var(--light-caution);
     background-color: var(--snow);
-    border: 2px solid var(--light-caution);
+    border: 1.2px solid var(--light-caution);
 }
 .btn-caution:hover{
     background-color: var(--caution);
@@ -38,6 +39,7 @@
 .btn-success{
     color: var(--snow);
     background-color: var(--success);
+    border: 1.2px solid var(--success);
 }
 .btn-success:hover{
     background-color: var(--lighter-success);
@@ -45,7 +47,7 @@
 
 .btn-outline-primary{
     background-color: var(--snow);
-    color: var(--darc);
+    color: var(--primary);
     border: 1.2px solid var(--primary);
     
 }
@@ -65,7 +67,7 @@
 .btn-outline-caution{
     color: var(--light-caution);
     background-color: var(--snow);
-    border: 2px solid var(--light-caution);
+    border: 1.2px solid var(--light-caution);
 }
 .btn-outline-caution:hover{
     background-color: var(--caution);
@@ -74,6 +76,7 @@
 }
 
 .btn-outline-success{
+    color: var(--success);
     background-color: var(--snow);
     border: 1.2px solid var(--success);
 }
