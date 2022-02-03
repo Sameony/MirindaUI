@@ -3,7 +3,7 @@ const closedIco = document.querySelector(".closed-ico");
 const openIco = document.querySelector(".open-ico");
 const titles = document.querySelectorAll('.smol-title');
 const drawer = document.querySelector(".drawer");
-const grid = document.querySelector(".grid");
+const container = document.querySelector(".container");
 
 
 openIco.addEventListener("click", ()=>
@@ -16,7 +16,8 @@ openIco.addEventListener("click", ()=>
     {
         titles[i].style.display="none";
     }
-    grid.style.gridTemplateColumns="[col-1]5rem [col-2]1fr [col3]";;
+    container.style.width = "calc(100% - 6rem)";
+    container.style.paddingLeft = "10rem";
 })
 closedIco.addEventListener("click", ()=>
 {
@@ -28,5 +29,6 @@ closedIco.addEventListener("click", ()=>
     {
         titles[i].style.display="block";
     }
-    grid.style.gridTemplateColumns="[col-1]18.75rem [col-2]1fr [col3]";
+    container.style.width = "calc(100% - 19rem)";
+    container.style.paddingLeft = "25rem";
 })
