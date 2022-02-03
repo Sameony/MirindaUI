@@ -1,0 +1,83 @@
+.btn{
+    padding: 0.8rem 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    color: var(--snow);
+    
+}
+.btn-primary:hover{
+    background-color: var(--dark-prim);
+}
+
+
+.btn-secondary{
+    background-color: var(--snow);
+    border: 1.2px solid var(--primary);
+}
+
+.btn-secondary:hover{
+    background-color: var(--dark-peach);
+}
+
+.btn-caution{
+    color: var(--light-caution);
+    background-color: var(--snow);
+    border: 2px solid var(--light-caution);
+}
+.btn-caution:hover{
+    background-color: var(--caution);
+    color: var(--snow);
+    border-color: var(--caution);
+}
+
+.btn-success{
+    color: var(--snow);
+    background-color: var(--success);
+}
+.btn-success:hover{
+    background-color: var(--lighter-success);
+}
+
+.btn-outline-primary{
+    background-color: var(--snow);
+    color: var(--darc);
+    border: 1.2px solid var(--primary);
+    
+}
+.btn-outline-primary:hover{
+    background-color: var(--primary);
+    color: var(--snow);
+}
+.btn-outline-secondary{
+    background-color: var(--snow);
+    border: 1.2px solid var(--dark-prim);
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--dark-peach);
+}
+
+.btn-outline-caution{
+    color: var(--light-caution);
+    background-color: var(--snow);
+    border: 2px solid var(--light-caution);
+}
+.btn-outline-caution:hover{
+    background-color: var(--caution);
+    color: var(--snow);
+    border-color: var(--caution);
+}
+
+.btn-outline-success{
+    background-color: var(--snow);
+    border: 1.2px solid var(--success);
+}
+.btn-outline-success:hover{
+    background-color: var(--success);
+    color: snow;
+}
