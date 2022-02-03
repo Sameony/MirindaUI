@@ -6,15 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mirinda buttons</title>
+
     <link rel="stylesheet" href="/Styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
+
 </head>
 
 <body>
 
-    <header class="header">
-        <h1> Component Library </h1>
+    <header class="header pd-x-md pd-t-md">
+        <h1 class="pd-t-md"> Mirinda<span class="prim-color">UI</span> </h1>
     </header>
 
 
@@ -103,36 +107,57 @@
             </span>
         </div>
     </div>
-
+    
     <div class="container">
-        <h1 class="contentHeader">Buttons</h1>
-        <div class="contentArticle">
+        <h1 class="heroHeader pd-y-md mg-y-sm">
+            Buttons
+        </h1>
+        <h2 class="contentHeader mg-y-sm">Solid Buttons</h2>
+        <div class="contentArticle pd-y-sm">
             Buttons are used mainly as functionality triggers, that is, for communicating with the user.
             Buttons can be of many types, but mostly, they are either clickable links or just buttons.
             These are important components as they are used throughout a website, from header and navigation, cards,
             links
             to footer and social connect links.
         </div>
-        <div class="showcase">
-            <button class="btn btn-primary">Primary Button</button>
-            <button class="btn btn-secondary">Secondary Button</button>
-            <button class="btn btn-caution">Caution Button</button>
-            <button class="btn btn-success">Success Button</button>
+        
+        <div>
+            <button class="btn btn-primary mg-y-sm">Primary Button</button>
+            <button class="btn btn-secondary mg-y-sm">Secondary Button</button>
+            <button class="btn btn-caution mg-y-sm">Caution Button</button>
+            <button class="btn btn-success mg-y-sm">Success Button</button>
         </div>
-        <h1 class="contentHeader">Outline Buttons</h1>
-        <div class="contentArticle">
+        <pre>
+            <code class="html">
+            &lt;button class="btn btn-primary"&gt;Primary Button&lt;/button&gt;
+            &lt;button class="btn btn-secondary"&gt;Secondary Button&lt;/button&gt;
+            &lt;button class="btn btn-caution"&gt;Caution Button&lt;/button&gt;
+            &lt;button class="btn btn-success"&gt;Success Button&lt;/button&gt;
+            </code>
+        </pre>
+
+        <h2 class="contentHeader mg-y-sm">Outline Buttons</h2>
+        <div class="contentArticle pd-y-sm">
             Outline Buttons are used to provide a bit "Lighter" look for the buttons. They usually dont have filled
             colors in the background.
             The outline style buttons can be used for various purposes, such as the secondary action complementing the
             primary action or
             If you have many buttons, then it may help in reducing the heavy color traffic.
         </div>
-        <div class="showcase">
-            <button class="btn btn-outline-primary">Primary Button</button>
-            <button class="btn btn-outline-secondary">Secondary Button</button>
-            <button class="btn btn-outline-caution">Caution Button</button>
-            <button class="btn btn-outline-success">Success Button</button>
+        <div class="mg-y-sm">
+            <button class="btn btn-outline-primary mg-y-sm">Primary Button</button>
+            <button class="btn btn-outline-secondary mg-y-sm">Secondary Button</button>
+            <button class="btn btn-outline-caution mg-y-sm">Caution Button</button>
+            <button class="btn btn-outline-success mg-y-sm">Success Button</button>
         </div>
+        <pre>
+            <code>
+            &lt;button class="btn btn-outline-primary"&gt;Primary Button&lt;/button&gt;
+            &lt;button class="btn btn-outline-secondary"&gt;Secondary Button&lt;/button&gt;
+            &lt;button class="btn btn-outline-caution"&gt;Caution Button&lt;/button&gt;
+            &lt;button class="btn btn-outline-success"&gt;Success Button&lt;/button&gt;
+            </code>
+        </pre>
     </div>
 
 
@@ -141,6 +166,11 @@
         <div class="footer-header">Come and say Hi!</div>
     </footer>
     <script src="/js/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+
 </body>
 
 </html>
