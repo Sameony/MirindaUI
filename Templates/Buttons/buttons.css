@@ -101,11 +101,6 @@
     font-size: large;
 }
 
-.btn-link-square {
-    color: var(--snow);
-    background-color: var(--dark-prim);
-}
-
 .btn-link-noBorder {
     color: var(--primary);
 }
@@ -115,4 +110,14 @@
     text-decoration-line: underline;
     text-decoration-color: var(--success);
     color: var(--success)
+}
+
+.btn-share{
+    background-color: var(--blu);
+    color: var(--snow);
+    border: 1.2px solid var(--blu);
+}
+.btn-share:hover{
+    background-color: var(--darker-blu);
+    border: 1.2px solid var(--darker-blu);
 }
