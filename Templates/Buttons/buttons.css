@@ -1,0 +1,131 @@
+.btn {
+    padding: 0.8rem 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--snow);
+    border: 1.2px solid var(--primary);
+
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-prim);
+}
+
+
+.btn-secondary {
+    background-color: var(--snow);
+    border: 1.2px solid var(--primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--dark-peach);
+}
+
+.btn-caution {
+    color: var(--light-caution);
+    background-color: var(--snow);
+    border: 1.2px solid var(--light-caution);
+}
+
+.btn-caution:hover {
+    background-color: var(--caution);
+    color: var(--snow);
+    border-color: var(--caution);
+}
+
+.btn-success {
+    color: var(--snow);
+    background-color: var(--success);
+    border: 1.2px solid var(--success);
+}
+
+.btn-success:hover {
+    background-color: var(--lighter-success);
+}
+
+.btn-outline-primary {
+    background-color: var(--snow);
+    color: var(--primary);
+    border: 1.2px solid var(--primary);
+
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: var(--snow);
+}
+
+.btn-outline-secondary {
+    background-color: var(--snow);
+    border: 1.2px solid var(--dark-prim);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--dark-peach);
+}
+
+.btn-outline-caution {
+    color: var(--light-caution);
+    background-color: var(--snow);
+    border: 1.2px solid var(--light-caution);
+}
+
+.btn-outline-caution:hover {
+    background-color: var(--caution);
+    color: var(--snow);
+    border-color: var(--caution);
+}
+
+.btn-outline-success {
+    color: var(--success);
+    background-color: var(--snow);
+    border: 1.2px solid var(--success);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--success);
+    color: var(--snow);
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    transition: all ease 0.3s;
+}
+
+.btn-link:hover {
+    font-size: large;
+}
+
+.btn-link-noBorder {
+    color: var(--primary);
+}
+
+.btn-link-dot {
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+    text-decoration-color: var(--success);
+    color: var(--success)
+}
+
+.btn-share{
+    background-color: var(--blu);
+    color: var(--snow);
+    border: 1.2px solid var(--blu);
+}
+.btn-share:hover{
+    background-color: var(--darker-blu);
+    border: 1.2px solid var(--darker-blu);
+}
+
+.btn-floating-action{
+    border-radius: 100%;
+}
+
+.btn-floating-action .fas{
+    margin: auto;
+}

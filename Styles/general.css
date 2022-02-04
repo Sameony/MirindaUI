@@ -2,35 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&family=Montserrat:wght@400;500;600&family=Poppins&family=Raleway:wght@600&display=swap');
 
-h1{
+h1 {
     font-size: 2rem;
     font-weight: 700;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
-    font-weight:500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-h3{
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-p{
-    font-size: 1rem;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    /* font-family: serif; */
-    font-family: 'Comfortaa', cursive;
-    /* font-family: 'Montserrat', sans-serif; */
+h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     scroll-behavior: smooth;
 }
-

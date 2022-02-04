@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirinda buttons</title>
+
+    <link rel="stylesheet" href="/Styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
+
+</head>
+
+<body>
+
+    <header class="header pd-x-md pd-t-md">
+        <h1 class="pd-t-md"> Mirinda<span class="prim-color">UI</span> </h1>
+    </header>
+
+
+    <div class="drawer">
+        <div class="navigation shadows">
+            <ul class="prim-color">
+                <li >
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-users"></i>
+                        </span>
+                        <span class="smol-title">
+                            Avatars
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-exclamation-circle"></i>
+                        </span>
+                        <span class="smol-title">
+                            Alert
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-ribbon"></i>
+                        </span>
+                        <span class="smol-title">
+                            Badges
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-sliders-h"></i>
+                        </span>
+                        <span class="smol-title">
+                            Buttons
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-id-badge"></i>
+                        </span>
+                        <span class="smol-title">
+                            Card
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-images"></i>
+                        </span>
+                        <span class="smol-title">
+                            Images
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-keyboard"></i>
+                        </span>
+                        <span class="smol-title">
+                            Input
+                        </span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="btn-toggle-drawer">
+            <span class="ico closed-ico">
+                <i class="fas fa-chevron-circle-right"></i>
+            </span>
+            <span class="ico open-ico">
+                <i class="fas fa-chevron-circle-left"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="pd-y-md mg-y-sm">
+            Buttons
+        </h1>
+        <h2 class="contentHeader mg-y-sm">Solid Buttons</h2>
+        <div class="contentArticle pd-y-sm">
+            Buttons are used mainly as functionality triggers, that is, for communicating with the user.
+            Buttons can be of many types, but mostly, they are either clickable links or just buttons.
+            These are important components as they are used throughout a website, from header and navigation, cards,
+            links
+            to footer and social connect links.
+        </div>
+
+        <div>
+            <button class="btn btn-primary mg-y-sm">Primary Button</button>
+            <button class="btn btn-secondary mg-y-sm">Secondary Button</button>
+            <button class="btn btn-caution mg-y-sm">Caution Button</button>
+            <button class="btn btn-success mg-y-sm">Success Button</button>
+        </div>
+        <pre>
+            <code class="html">
+        &lt;button class="btn btn-primary"&gt;Primary Button&lt;/button&gt;
+        &lt;button class="btn btn-secondary"&gt;Secondary Button&lt;/button&gt;
+        &lt;button class="btn btn-caution"&gt;Caution Button&lt;/button&gt;
+        &lt;button class="btn btn-success"&gt;Success Button&lt;/button&gt;
+            </code>
+        </pre>
+
+        <h2 class="contentHeader mg-y-sm">Outline Buttons</h2>
+        <div class="contentArticle pd-y-sm">
+            Outline Buttons are used to provide a bit "Lighter" look for the buttons. They usually dont have filled
+            colors in the background.
+            The outline style buttons can be used for various purposes, such as the secondary action complementing the
+            primary action or
+            If you have many buttons, then it may help in reducing the heavy color traffic.
+        </div>
+        <div class="mg-y-sm">
+            <button class="btn btn-outline-primary mg-y-sm">Primary Button</button>
+            <button class="btn btn-outline-secondary mg-y-sm">Secondary Button</button>
+            <button class="btn btn-outline-caution mg-y-sm">Caution Button</button>
+            <button class="btn btn-outline-success mg-y-sm">Success Button</button>
+        </div>
+        <pre>
+            <code>
+        &lt;button class="btn btn-outline-primary"&gt;Primary Button&lt;/button&gt;
+        &lt;button class="btn btn-outline-secondary"&gt;Secondary Button&lt;/button&gt;
+        &lt;button class="btn btn-outline-caution"&gt;Caution Button&lt;/button&gt;
+        &lt;button class="btn btn-outline-success"&gt;Success Button&lt;/button&gt;
+            </code>
+        </pre>
+
+        <h2 class="contentHeader mg-y-sm">Link Buttons</h2>
+        <div class="contentArticle pd-y-sm">
+            Link buttons are not technically buttons, but rather hyperlinks to same or another website or webpage.
+        </div>
+        <div class="mg-y-sm">
+            <a class="btn-link btn-outline-primary mg-y-sm fw-xl" href="#">Squared Link</a>
+            <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl" href="#">Borderless Link</a>
+            <a class="btn-link btn-link-dot mg-y-sm fw-xl" href="#">Dashed Link</a>
+        </div>
+        <pre>
+            <code>
+        &lt;a class="btn-link btn-outline-primary mg-y-sm fw-xl" href="target_Link_Here"&gt;Squared Link&lt;/a&gt;
+        &lt;a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl" href="target_Link_Here"&gt;Borderless Link&lt;/a&gt;
+        &lt;a class="btn-link btn-link-dot mg-y-sm fw-xl" href="target_Link_Here"&gt;Dashed Link&lt;/a&gt;
+            </code>
+        </pre>
+
+        <h2 class="contentHeader mg-y-sm">Buttons w/ Icons</h2>
+        <div class="contentArticle pd-y-sm">
+            Normal buttons but they have icons along with them, that signify something embedded in them.
+        </div>
+
+        <div class="mg-y-sm">
+            <button class="btn btn-primary mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to Cart</button>
+            <button class="btn btn-caution mg-y-sm"><i class="fas fa-trash mg-r-sm"></i>Delete</button>
+            <button class="btn btn-share mg-y-sm"><i class="fas fa-share-alt mg-r-sm"></i>Share</button>
+        </div>
+        <pre>
+            <code>
+        &lt;button class="btn btn-primary mg-y-sm"&gt;&lt;i class="fas fa-shopping-cart mg-r-sm"&gt;&lt;/i&gt;Add to Cart&lt;/button&gt;
+        &lt;button class="btn btn-caution mg-y-sm"&gt;&lt;i class="fas fa-trash mg-r-sm"&gt;&lt;/i&gt;Delete&lt;/button&gt;
+        &lt;button class="btn btn-share mg-y-sm"&gt;&lt;i class="fas fa-share-alt mg-r-sm"&gt;&lt;/i&gt;Share&lt;/button&gt;
+            </code>
+        </pre>
+        <h2 class="contentHeader mg-y-sm">Floating Action Button</h2>
+        <div class="contentArticle pd-y-sm">
+            A floating action button is a button that has a fixed place on a webpage/viewport of the user, stacked over
+            other elements of the webpage, and performs
+            it's designated task, which is usually something like scroll to top, open box of menu or actions etc.
+        </div>
+
+        <div class="mg-y-sm">
+            <button class="btn btn-primary pd-sm fs-l btn-floating-action mg-y-sm shadows"><i
+                    class="fas fa-chevron-up mg-r-sm"></i></button>
+            <button class="btn btn-outline-primary pd-sm fs-l btn-floating-action mg-y-sm shadows"><i
+                    class="fas fa-plus mg-r-sm"></i></button>
+        </div>
+        <pre>
+            <code>
+        &lt;button class="btn btn-primary pd-sm fs-l btn-floating-action mg-y-sm shadows"&gt;&lt;i class="fas fa-chevron-up mg-r-sm"&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;button class="btn btn-outline-primary pd-sm fs-l btn-floating-action mg-y-sm shadows"&gt;&lt;i class="fas fa-plus mg-r-sm"&gt;&lt;/i&gt;&lt;/button&gt;
+            </code>
+        </pre>
+    </div>
+
+    <footer class="footer">
+        <i class="far fa-copyright"></i> Created by <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl"
+            href="http://github.com/Sameony" target="_blank">Mohammed Sameer</a>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+
+</body>
+
+</html>

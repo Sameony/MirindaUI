@@ -16,7 +16,7 @@ openIco.addEventListener("click", ()=>
     {
         titles[i].style.display="none";
     }
-    container.style.width = "calc(100% - 6rem)";
+    container.style.width = "calc(100% - 17rem)";
     container.style.paddingLeft = "10rem";
 })
 closedIco.addEventListener("click", ()=>
@@ -29,6 +29,6 @@ closedIco.addEventListener("click", ()=>
     {
         titles[i].style.display="block";
     }
-    container.style.width = "calc(100% - 19rem)";
-    container.style.paddingLeft = "25rem";
+    container.style.width = "calc(100% - 25rem)";
+    container.style.paddingLeft = "23rem";
 })
