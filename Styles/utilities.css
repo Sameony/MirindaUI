@@ -1,0 +1,216 @@
+.shadows{
+    box-shadow: 4px 4px 2px rgb(80, 80, 80);
+}
+.shadows:hover{
+    box-shadow: 8px 8px 4px rgb(0, 0, 0);
+}
+
+/* paddings */
+.pd-l-sm{
+    padding-left: 0.5rem;
+}
+.pd-r-sm{
+    padding-right: 0.5rem;
+}
+.pd-t-sm{
+    padding-top: 0.5rem;
+}
+.pd-b-sm{
+    padding-bottom: 0.5rem;
+}
+.pd-x-sm{
+    padding: 0 0.5rem;
+}
+.pd-y-sm{
+    padding: 1rem 0;
+}
+.pd-sm{
+    padding: 1rem;
+}
+
+.pd-l-md{
+    padding-left: 1rem;
+}
+.pd-r-md{
+    padding-right: 1rem;
+}
+.pd-t-md{
+    padding-top: 1rem;
+}
+.pd-b-md{
+    padding-bottom: 1rem;
+}
+.pd-x-md{
+    padding: 0 1rem;
+}
+.pd-y-md{
+    padding: 1rem 0;
+}
+.pd-md{
+    padding: 1rem;
+}
+
+.pd-l-lg{
+    padding-left: 1.5rem;
+}
+.pd-r-lg{
+    padding-right: 1.5rem;
+}
+.pd-t-lg{
+    padding-top: 1.5rem;
+}
+.pd-b-lg{
+    padding-bottom: 1.5rem;
+}
+.pd-x-lg{
+    padding: 0 1.5rem;
+}
+.pd-y-lg{
+    padding: 1.5rem 0;
+}
+.pd-lg{
+    padding: 1.5rem;
+}
+
+.pd-l-xl{
+    padding-left: 2rem;
+}
+.pd-r-xl{
+    padding-right: 2rem;
+}
+.pd-t-xl{
+    padding-top: 2rem;
+}
+.pd-b-xl{
+    padding-bottom: 2rem;
+}
+.pd-x-xl{
+    padding: 0 2rem;
+}
+.pd-y-xl{
+    padding: 2rem 0;
+}
+.pd-xl{
+    padding: 2rem;
+}
+
+/* margins */
+.mg-l-sm{
+    margin-left: 0.5rem;
+}
+.mg-r-sm{
+    margin-right: 0.5rem;
+}
+.mg-t-sm{
+    margin-top: 0.5rem;
+}
+.mg-b-sm{
+    margin-bottom: 0.5rem;
+}
+.mg-x-sm{
+    margin: 0 0.5rem;
+}
+.mg-y-sm{
+    margin: 0.5rem 0;
+}
+.mg-sm{
+    margin: 0.5rem;
+}
+
+.mg-l-md{
+    margin-left: 1rem;
+}
+.mg-r-md{
+    margin-right: 1rem;
+}
+.mg-t-md{
+    margin-top: 1rem;
+}
+.mg-b-md{
+    margin-bottom: 1rem;
+}
+.mg-x-md{
+    margin: 0 1rem;
+}
+.mg-y-md{
+    margin: 1rem 0;
+}
+.mg-md{
+    margin: 1rem;
+}
+
+.mg-l-lg{
+    margin-left: 1.5rem;
+}
+.mg-r-lg{
+    margin-right: 1.5rem;
+}
+.mg-t-lg{
+    margin-top: 1.5rem;
+}
+.mg-b-lg{
+    margin-bottom: 1.5rem;
+}
+.mg-x-lg{
+    margin: 0 1.5rem;
+}
+.mg-y-lg{
+    margin: 1.5rem 0;
+}
+.mg-lg{
+    margin: 1.5rem;
+}
+
+.mg-l-xl{
+    margin-left: 2rem;
+}
+.mg-r-xl{
+    margin-right: 2rem;
+}
+.mg-t-xl{
+    margin-top: 2rem;
+}
+.mg-b-xl{
+    margin-bottom: 2rem;
+}
+.mg-x-xl{
+    margin: 0 2rem;
+}
+.mg-y-xl{
+    margin: 2rem 0;
+}
+.mg-xl{
+    margin: 2rem;
+}
+
+/* font weights */
+.fw-xxs{
+    font-weight: 200;
+}
+.fw-xs{
+    font-weight: 300;
+}
+
+.fw-s{
+    font-weight: 400;
+}
+
+.fw-m{
+    font-weight: 500;
+}
+
+.fw-l{
+    font-weight: 600;
+}
+
+.fw-xl{
+    font-weight: 700;
+}
+
+.fw-xxl{
+    font-weight: 800;
+}
+
+.fw-xxxl{
+    font-weight: 900;
+}
