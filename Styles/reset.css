@@ -1,22 +1,30 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  
-ul{
+}
+
+ul {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-a,button{
+a,
+button {
     cursor: pointer;
 }
 
-p, h1, h2, h3, h4, h5, h6, span {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
     overflow-wrap: break-word;
 }
 
@@ -26,7 +34,12 @@ body {
 }
 
 
-img, picture, video, canvas,iframe, svg {
+img,
+picture,
+video,
+canvas,
+iframe,
+svg {
     display: block;
     max-width: 100%;
     max-inline-size: 100%;

@@ -3,17 +3,19 @@
 @import url(/Styles/general.css);
 @import url(/Templates/Buttons/buttons.css);
 @import url(/Styles/utilities.css);
+
 :root {
     font-size: 16px;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-.prim-color{
+.prim-color {
     color: var(--primary);
 }
+
 .header {
     position: relative;
     z-index: 1;
@@ -33,7 +35,7 @@ body{
     height: 100%;
 }
 
-.drawer .navigation {
+.navigation {
     width: 18.75rem;
     height: 100%;
     background-color: white;
@@ -43,30 +45,27 @@ body{
     transition: all 0.5s;
 }
 
-.drawer .navigation ul {
+.navigation ul {
     width: 100%;
     position: relative;
     top: 6.5rem;
 }
 
-.drawer .navigation ul li {
+.navigation ul li {
     width: 100%;
 }
 
-.drawer .navigation ul li:hover {
+.navigation ul li:hover {
     background-color: var(--dark-peach);
 }
 
-.drawer .navigation ul li a {
+.navigation ul li a {
     width: 100%;
     display: flex;
 }
 
-.drawer .navigation ul li a .fa {
-    font-size: larger;
-}
 
-.drawer .navigation ul li a .smol-ico {
+.navigation .smol-ico {
     position: relative;
     min-width: 5rem;
     height: 4rem;
@@ -77,7 +76,7 @@ body{
     color: var(--primary);
 }
 
-.drawer .navigation ul li a .smol-title {
+.navigation .smol-title {
     line-height: 4rem;
     white-space: nowrap;
 }
@@ -113,18 +112,19 @@ body{
     color: var(--darc);
     transition-timing-function: ease-in;
     transition: all 0.5s;
-    width: calc(100% - 25rem);
-    padding-left: 23rem;
-    color: var(--darc);
 }
 
 .footer {
-    display: none;
-    position: absolute;
+    text-align: center;
+    position: relative;
     z-index: 1;
     width: 100%;
     height: 3rem;
-    bottom: 0;
     color: var(--peach);
     background-color: var(--darc);
+}
+
+.footer .btn-link {
+    margin-bottom: 0;
+    padding: 0;
 }
