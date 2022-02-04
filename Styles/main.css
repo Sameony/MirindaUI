@@ -2,7 +2,7 @@
 @import url(/Styles/reset.css);
 @import url(/Styles/general.css);
 @import url(/Templates/Buttons/buttons.css);
-
+@import url(/Styles/utilities.css);
 :root {
     font-size: 16px;
 }
