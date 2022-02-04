@@ -121,3 +121,11 @@
     background-color: var(--darker-blu);
     border: 1.2px solid var(--darker-blu);
 }
+
+.btn-floating-action{
+    border-radius: 100%;
+}
+
+.btn-floating-action .fas{
+    margin: auto;
+}
