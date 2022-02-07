@@ -7,12 +7,8 @@ hearts.forEach(heart=>heart.addEventListener("click", ratingChange(hearts)))
 function ratingChange(rate)
 {
     for (let i = 0; i < rate.length; i++) {
-        let j=0;
-        while(j+5 <i)
-        {
-            j+=5;
-        }
         rate[i].addEventListener("click", () => {
+            let j= 5 * Math.floor(i/5);
             for (; j <=i; j++) {
                 if (rate[j].classList.contains("fas") === false) 
                 {
