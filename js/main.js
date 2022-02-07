@@ -32,3 +32,11 @@ closedIco.addEventListener("click", ()=>
     container.style.width = "calc(100% - 25rem)";
     container.style.paddingLeft = "23rem";
 })
+
+// for changing < and > to %lt and %gt 
+const boxOutput = document.querySelectorAll(".showcase");
+boxOutput.forEach(box=>{
+    let code = box.innerHTML;
+        code = code.replaceAll("<", "&LT");
+        box.innerHTML = code;
+});
