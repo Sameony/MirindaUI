@@ -1,8 +1,10 @@
-
-.heart, .star{
+.heart,
+.star {
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
-.heart:hover, .star:hover{
+
+.heart:hover,
+.star:hover {
     font-size: larger;
 }
