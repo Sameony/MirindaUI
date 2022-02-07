@@ -9,112 +9,177 @@
     <link rel="stylesheet" href="/Styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
 </head>
 
 <body>
-    
+
     <header class="header pd-x-md pd-t-md">
         <h1 class="pd-t-md"> Mirinda<span class="prim-color">UI</span> </h1>
     </header>
+
+
+    <div class="drawer">
+        <div class="navigation shadows">
+            <ul class="prim-color">
+                <li>
+                    <a href="/Templates/Avatars/avatar.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-users"></i>
+                        </span>
+                        <span class="smol-title">
+                            Avatars
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Alerts/Alert.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-exclamation-circle"></i>
+                        </span>
+                        <span class="smol-title">
+                            Alert
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Badges/Badge.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-ribbon"></i>
+                        </span>
+                        <span class="smol-title">
+                            Badges
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Buttons/buttons.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-sliders-h"></i>
+                        </span>
+                        <span class="smol-title">
+                            Buttons
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Cards/cards.html">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-id-badge"></i>
+                        </span>
+                        <span class="smol-title">
+                            Card
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Images/images.html">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-images"></i>
+                        </span>
+                        <span class="smol-title">
+                            Images
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Inputs/inputs.html">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-keyboard"></i>
+                        </span>
+                        <span class="smol-title">
+                            Input
+                        </span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="btn-toggle-drawer">
+            <span class="ico closed-ico">
+                <i class="fas fa-chevron-circle-right"></i>
+            </span>
+            <span class="ico open-ico">
+                <i class="fas fa-chevron-circle-left"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="pd-y-md mg-y-sm">
+            Cards
+        </h1>
+        <h2 class="contentHeader mg-y-sm"></h2>
+        <div class="contentArticle pd-y-sm">
+            Cards are a set of similar meaning or category-falling content hoders. They have information and action
+            regarding the subject. Cards can appear to be either fixed or elevated.
+        </div>
+        <div class="cardShow pd-md">
+            <div class="cardContainer shadows">
+                <div class="partialCard">
+                    <div class="cardHeader pd-l-md">
+                        <div class="cardHead fs-l fw-xxxl">Mirinda</div>
+                        <div class="cardSubHead"> by Sameer</div>
+                    </div>
+                    <div class="cardPic">
+                        <img src="/Assets/Images/patCat.jpg">
+                    </div>
+                    <div class="cardContent">Cats are often connected with the term of nyaa. I must say, i do nyat hate that.
+                        Elevated nya.
+                    </div>
+                </div>
     
+                <div class="cardFoot mg-y-sm">
+                    <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl" href="target_Link_Here">Pat</a>
+                    <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl" href="target_Link_Here">Give Treats</a>
     
-        <div class="drawer">
-            <div class="navigation shadows">
-                <ul class="prim-color">
-                    <li>
-                        <a href="/Templates/Avatars/avatar.html">
-                            <span class="smol-ico">
-                                <i class="fs-l fas fa-users"></i>
-                            </span>
-                            <span class="smol-title">
-                                Avatars
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Alerts/Alert.html">
-                            <span class="smol-ico">
-                                <i class="fs-l fas fa-exclamation-circle"></i>
-                            </span>
-                            <span class="smol-title">
-                                Alert
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Badges/Badge.html">
-                            <span class="smol-ico">
-                                <i class="fs-l fas fa-ribbon"></i>
-                            </span>
-                            <span class="smol-title">
-                                Badges
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Buttons/buttons.html">
-                            <span class="smol-ico">
-                                <i class="fs-l fas fa-sliders-h"></i>
-                            </span>
-                            <span class="smol-title">
-                                Buttons
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Cards/cards.html">
-                            <span class="smol-ico">
-                                <i class="fs-l far fa-id-badge"></i>
-                            </span>
-                            <span class="smol-title">
-                                Card
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Images/images.html">
-                            <span class="smol-ico">
-                                <i class="fs-l far fa-images"></i>
-                            </span>
-                            <span class="smol-title">
-                                Images
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Inputs/inputs.html">
-                            <span class="smol-ico">
-                                <i class="fs-l far fa-keyboard"></i>
-                            </span>
-                            <span class="smol-title">
-                                Input
-                            </span>
-                        </a>
-                    </li>
+                </div>
     
-                </ul>
-            </div>
-            <div class="btn-toggle-drawer">
-                <span class="ico closed-ico">
-                    <i class="fas fa-chevron-circle-right"></i>
-                </span>
-                <span class="ico open-ico">
-                    <i class="fas fa-chevron-circle-left"></i>
-                </span>
             </div>
         </div>
-    
-        <div class="container">
-            
-        </div>
-    
         
+
+        <pre>
+            <code>
+        <div class="cardShow pd-md">
+            <div class="cardContainer shadows">
+                <div class="partialCard">
+                    <div class="cardHeader pd-l-md">
+                        <div class="cardHead fs-l fw-xxxl">Mirinda</div>
+                        <div class="cardSubHead"> by Sameer</div>
+                    </div>
+                    <div class="cardPic">
+                        <img src="/Assets/Images/patCat.jpg">
+                    </div>
+                    <div class="cardContent">Cats are often connected with the term of nyaa. I must say, i do nyat hate that.
+                        Elevated nya.
+                    </div>
+                </div>
     
-        <footer class="footer">
-            <i class="far fa-copyright"></i> Created by <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl"
-                href="http://github.com/Sameony" target="_blank">Mohammed Sameer</a>
-        </footer>
+                <div class="cardFoot mg-y-sm">
+                    <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl" href="target_Link_Here">Pat</a>
+                    <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl" href="target_Link_Here">Give Treats</a>
+    
+                </div>
+    
+            </div>
+        </div>
+            </code>
+        </pre>
+    </div>
+
+
+
+    <footer class="footer">
+        <i class="far fa-copyright"></i> Created by <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl"
+            href="http://github.com/Sameony" target="_blank">Mohammed Sameer</a>
+    </footer>
     <script src="/js/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 
 </html>

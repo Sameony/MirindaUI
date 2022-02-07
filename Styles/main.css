@@ -4,6 +4,7 @@
 @import url(/Templates/Buttons/buttons.css);
 @import url(/Styles/utilities.css);
 @import url(/Templates/Inputs/inputs.css);
+@import url(/Templates/Cards/cards.css);
 :root {
     font-size: 16px;
 }

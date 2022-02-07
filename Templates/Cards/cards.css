@@ -1,0 +1,50 @@
+.cardShow{
+    background-color: var(--peach);
+}
+.cardContainer {
+    max-width: 20rem;
+    /* border-radius: 6px; */
+    transition-duration: 0.4s;
+    transition-property: all;
+    background-color: var(--snow);
+}
+.cardFoot .btn-link-noBorder:hover{
+    font-size: initial;
+    background-color: var(--dark-peach);
+}
+.partialCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardHead {
+    color: var(--primary);
+}
+
+.cardSubHead {
+    font-size: small;
+    padding: 0.5rem 0 1rem 1rem;
+}
+
+.cardButton {
+    max-width: 30px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.cardButton:hover {
+    background-color: rgb(175, 174, 174);
+    border-radius: 50px;
+}
+
+.cardContent {
+    margin: 0.5rem;
+    padding: 0 0 0 0.5rem;
+}
+
+.cardFoot {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0 0 0;
+    align-items: center;
+}
