@@ -9,112 +9,276 @@
     <link rel="stylesheet" href="/Styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
+
 </head>
 
 <body>
-    
+
     <header class="header pd-x-md pd-t-md">
         <h1 class="pd-t-md"> Mirinda<span class="prim-color">UI</span> </h1>
     </header>
-    
-    
-        <div class="drawer">
-            <div class="navigation shadows">
-                <ul class="prim-color">
-                    <li>
-                        <a href="/Templates/Avatars/avatar.html">
-                            <span class="smol-ico">
-                                <i class="fs-l fas fa-users"></i>
-                            </span>
-                            <span class="smol-title">
-                                Avatars
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Alerts/Alert.html">
-                            <span class="smol-ico">
-                                <i class="fs-l fas fa-exclamation-circle"></i>
-                            </span>
-                            <span class="smol-title">
-                                Alert
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Badges/Badge.html">
-                            <span class="smol-ico">
-                                <i class="fs-l fas fa-ribbon"></i>
-                            </span>
-                            <span class="smol-title">
-                                Badges
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Buttons/buttons.html">
-                            <span class="smol-ico">
-                                <i class="fs-l fas fa-sliders-h"></i>
-                            </span>
-                            <span class="smol-title">
-                                Buttons
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Templates/Cards/cards.html">
-                            <span class="smol-ico">
-                                <i class="fs-l far fa-id-badge"></i>
-                            </span>
-                            <span class="smol-title">
-                                Card
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="smol-ico">
-                                <i class="fs-l far fa-images"></i>
-                            </span>
-                            <span class="smol-title">
-                                Images
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="smol-ico">
-                                <i class="fs-l far fa-keyboard"></i>
-                            </span>
-                            <span class="smol-title">
-                                Input
-                            </span>
-                        </a>
-                    </li>
-    
-                </ul>
-            </div>
-            <div class="btn-toggle-drawer">
-                <span class="ico closed-ico">
-                    <i class="fas fa-chevron-circle-right"></i>
-                </span>
-                <span class="ico open-ico">
-                    <i class="fas fa-chevron-circle-left"></i>
-                </span>
-            </div>
+
+
+    <div class="drawer">
+        <div class="navigation shadows">
+            <ul class="prim-color">
+                <li>
+                    <a href="/Templates/Avatars/avatar.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-users"></i>
+                        </span>
+                        <span class="smol-title">
+                            Avatars
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Alerts/Alert.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-exclamation-circle"></i>
+                        </span>
+                        <span class="smol-title">
+                            Alert
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Badges/Badge.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-ribbon"></i>
+                        </span>
+                        <span class="smol-title">
+                            Badges
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Buttons/buttons.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-sliders-h"></i>
+                        </span>
+                        <span class="smol-title">
+                            Buttons
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Templates/Cards/cards.html">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-id-badge"></i>
+                        </span>
+                        <span class="smol-title">
+                            Card
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-images"></i>
+                        </span>
+                        <span class="smol-title">
+                            Images
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-keyboard"></i>
+                        </span>
+                        <span class="smol-title">
+                            Input
+                        </span>
+                    </a>
+                </li>
+
+            </ul>
         </div>
-    
-        <div class="container">
-            
+        <div class="btn-toggle-drawer">
+            <span class="ico closed-ico">
+                <i class="fas fa-chevron-circle-right"></i>
+            </span>
+            <span class="ico open-ico">
+                <i class="fas fa-chevron-circle-left"></i>
+            </span>
         </div>
-    
+    </div>
+
+    <div class="container">
+        <h1 class="pd-y-md mg-y-sm"> Ratings
+        </h1>
+
+        <div class="contentArticle pd-y-sm">
+            Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a
+            rating of their own.
+        </div>
+        <h2 class="contentHeader mg-y-sm">Basic Ratings</h2>
+        <div class="contentArticle pd-y-sm">
+            These are the basic rating components. They rely on the solid variant available on the font-awesome library
+            to switch to the checked version. We can have different types of these ratings as long as their counterpart
+            of  solid variants are available. You can change the size of the icons by changing the font size.
+        </div>
+        <div>
+            <div class="rateMe mg-y-sm fs-l prim-color">
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+            </div>
+            <div class="rateMe mg-y-sm fs-l caution-color">
+                <i class="far fa-heart heart"></i>
+                <i class="far fa-heart heart"></i>
+                <i class="far fa-heart heart"></i>
+                <i class="far fa-heart heart"></i>
+                <i class="far fa-heart heart"></i>
+            </div>
+
+        </div>
+        <pre>
+            <code class="html showcase">
+    <div>
+        <div class="rateMe mg-y-sm fs-l prim-color">
+            <i class="far fa-star star"></i>
+            <i class="far fa-star star"></i>
+            <i class="far fa-star star"></i>
+            <i class="far fa-star star"></i>
+            <i class="far fa-star star"></i>
+        </div>
+        <div class="rateMe mg-y-sm fs-l caution-color">
+            <i class="far fa-heart heart"></i>
+            <i class="far fa-heart heart"></i>
+            <i class="far fa-heart heart"></i>
+            <i class="far fa-heart heart"></i>
+            <i class="far fa-heart heart"></i>
+        </div>
+
+    </div>    
         
+            </code>
+        </pre>
+        <h2 class="contentHeader mg-y-sm">Read only Ratings</h2>
+        <div class="contentArticle pd-y-sm">
+            These are Read only ratings, The user's response is not needed here. It's merely there as a part of 
+            a showcase or for information.
+        </div>
+        <div>
+            <div class="rateMe mg-y-sm fs-l prim-color">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="rateMe mg-y-sm fs-l caution-color">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="far fa-heart"></i>
+                <i class="far fa-heart"></i>
+                <i class="far fa-heart"></i>
+            </div>
+
+        </div>
+        <pre>
+            <code class="html showcase">
+    <div>
+        <div class="rateMe mg-y-sm fs-l prim-color">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="rateMe mg-y-sm fs-l caution-color">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="far fa-heart"></i>
+            <i class="far fa-heart"></i>
+            <i class="far fa-heart"></i>
+        </div>
+
+    </div>  
+        
+            </code>
+        </pre>
+
+        <h2 class="contentHeader mg-y-sm">Sizes</h2>
+        <div class="contentArticle pd-y-sm">
+            These are the basic rating components. You can change the size of the icons by changing the font size.
+        </div>
+        <div>
+            <div class="rateMe mg-y-sm fs-s prim-color">
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+            </div>
+            <div class="rateMe mg-y-sm fs-m prim-color">
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+            </div>
+            <div class="rateMe mg-y-sm fs-l prim-color">
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+            </div>
+            <div class="rateMe mg-y-sm fs-xl prim-color">
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+                <i class="far fa-star star"></i>
+            </div>
+            
+
+        </div>
+        <pre>
+            <code class="html showcase">
+    <div>
+        <div class="rateMe mg-y-sm fs-l prim-color">
+            <i class="far fa-star star"></i>
+            <i class="far fa-star star"></i>
+            <i class="far fa-star star"></i>
+            <i class="far fa-star star"></i>
+            <i class="far fa-star star"></i>
+        </div>
+        <div class="rateMe mg-y-sm fs-l caution-color">
+            <i class="far fa-heart heart"></i>
+            <i class="far fa-heart heart"></i>
+            <i class="far fa-heart heart"></i>
+            <i class="far fa-heart heart"></i>
+            <i class="far fa-heart heart"></i>
+        </div>
+
+    </div>    
+        
+            </code>
+        </pre>
+    </div>
+    </div>
     
-        <footer class="footer">
-            <i class="far fa-copyright"></i> Created by <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl"
-                href="http://github.com/Sameony" target="_blank">Mohammed Sameer</a>
-        </footer>
+
+
+
+    <footer class="footer">
+        <i class="far fa-copyright"></i> Created by <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl"
+            href="http://github.com/Sameony" target="_blank">Mohammed Sameer</a>
+    </footer>
     <script src="/js/main.js"></script>
+    <script src="/Templates/Ratings/ratings.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 
 </html>
