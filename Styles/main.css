@@ -4,6 +4,8 @@
 @import url(/Templates/Buttons/buttons.css);
 @import url(/Styles/utilities.css);
 @import url(/Templates/Inputs/inputs.css);
+@import url(/Templates//Ratings/ratings.css);
+
 :root {
     font-size: 16px;
 }
@@ -14,6 +16,12 @@ body {
 
 .prim-color {
     color: var(--primary);
+}
+.caution-color{
+    color: var(--light-caution);
+}
+.success-color{
+    color: var(--success);
 }
 
 .header {
