@@ -1,11 +1,3 @@
-@keyframes opac {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 .snack {
   background-color: var(--dark-gray);
   max-width: 50rem;
