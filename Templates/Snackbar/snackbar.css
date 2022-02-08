@@ -1,0 +1,71 @@
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.snack {
+  background-color: #1a1818ce;
+  position: fixed;
+  bottom: 15px;
+  line-height: 2rem;
+  min-width: 20rem;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 6px 6px 9px rgb(83, 83, 83);
+  animation: opac 0.8s;
+}
+
+.normalSnack {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  left: calc((85% - 20rem) / 2);
+}
+.leading {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  left: 15px;
+}
+.stackedSnack {
+  display: none;
+  flex-direction: column;
+  left: calc((85% - 20rem) / 2);
+}
+.snackContent {
+  margin-left: 0.4rem;
+  padding: 0 1rem;
+}
+.secondarySnack {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+}
+
+.rightSnack {
+  justify-content: space-around;
+}
+.botSnack {
+  justify-content: flex-end;
+}
+.snackLink {
+  text-decoration: none;
+  color: rgb(221, 167, 86);
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.cross {
+  padding: 4px 12px;
+  cursor: pointer;
+  margin-left: 6px;
+  transition: ease-in 0.5s;
+}
+.cross:hover {
+  background-color: #1a1818ee;
+  border-radius: 50%;
+}

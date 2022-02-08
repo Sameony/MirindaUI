@@ -7,3 +7,5 @@ Templates/Inputs/inputs.html
 Templates/Avatars/avatar.html
 Templates/Alerts/Alert.html
 Templates/Badges/Badge.html
+js/snack.js
+Templates/Snackbar/snackbar.html
