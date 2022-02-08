@@ -1,0 +1,85 @@
+.cardShow {
+  background-color: var(--peach);
+  display: flex;
+}
+
+.cardContainer {
+  max-width: 20rem;
+  transition: all ease 0.4s;
+  background-color: var(--snow);
+  position: relative;
+}
+.partialCard {
+  display: flex;
+  flex-direction: column;
+}
+.offerProduct {
+  background-color: var(--primary);
+  color: var(--snow);
+  position: absolute;
+  text-align: center;
+}
+
+.cardShow .fixed {
+  border: 1px solid var(--primary);
+}
+.cardPic {
+  height: 20rem;
+  position: relative;
+}
+.cardPic img {
+  height: 100%;
+  width: 100%;
+}
+.productPrice {
+  color: var(--success);
+}
+
+.horizontalCard .cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 40rem;
+  align-content: space-between;
+}
+
+.horizontalCard .partialCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.horizontalCard .cardPic {
+  width: 45rem;
+}
+.overlayBg {
+  background-color: var(--snow);
+  opacity: 0.6;
+}
+.overlay {
+  text-align: center;
+  position: absolute;
+  color: var(--darc);
+  bottom: 0;
+}
+.cardFoot .btn-link-noBorder:hover {
+  font-size: inherit;
+  background-color: var(--dark-peach);
+}
+
+.cardFoot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.crossProduct {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--gray);
+  cursor: pointer;
+}
+.crossProduct:hover {
+  background-color: var(--light-gray);
+  border-radius: 8px;
+}
