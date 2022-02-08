@@ -1,8 +1,8 @@
 const stars = document.querySelectorAll(".star");
 const hearts = document.querySelectorAll(".heart");
 
-stars.forEach(star => star.addEventListener("click", ratingChange(stars)))
-hearts.forEach(heart => heart.addEventListener("click", ratingChange(hearts)))
+stars.forEach(star => star.addEventListener("click", ()=> ratingChange(stars)))
+hearts.forEach(heart => heart.addEventListener("click", ()=> ratingChange(hearts)))
 
 function ratingChange(rate) {
     for (let i = 0; i < rate.length; i++) {
