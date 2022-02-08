@@ -1,39 +1,41 @@
 .contentInput {
-    text-align: center;
+  text-align: center;
 }
 
 .boxLabel {
-    width: 7rem;
-    display: inline-block;
+  width: 7rem;
+  display: inline-block;
 }
 
 .itemInput {
-    padding: 2px 3px;
-    min-width: 6rem;
-    width: 40%;
+  padding: 2px 3px;
+  min-width: 6rem;
+  width: 40%;
 }
 
 .validateSuccess {
-    border: 3px solid var(--success);
-    outline-color: transparent;
+  border: 3px solid var(--success);
+  outline-color: transparent;
 }
 
 .validateFailure {
-    border: 3px solid var(--caution);
-    outline-color: transparent;
+  border: 3px solid var(--caution);
+  outline-color: transparent;
 }
 
 .successMessage {
-    color: var(--success);
-    margin-left: 7rem;
+  color: var(--success);
+  margin-left: 7rem;
 }
 
 .cautionMessage {
-    color: var(--caution);
-    margin-left: 7rem;
+  color: var(--caution);
+  margin-left: 7rem;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
-    accent-color: var(--dark-prim);
+  accent-color: var(--dark-prim);
+  border-color: white;
+  box-shadow: none;
 }
