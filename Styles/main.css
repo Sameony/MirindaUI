@@ -6,6 +6,7 @@
 @import url(/Templates/Inputs/inputs.css);
 @import url(/Templates/Cards/cards.css);
 @import url(/Templates//Ratings/ratings.css);
+@import url(/Templates/Snackbar/snackbar.css);
 
 :root {
   font-size: 16px;
