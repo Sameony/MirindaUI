@@ -1,12 +1,14 @@
 .cardShow{
     background-color: var(--peach);
+    display: flex;
 }
 .cardContainer {
     max-width: 20rem;
-    /* border-radius: 6px; */
-    transition-duration: 0.4s;
-    transition-property: all;
+    transition: all ease 0.4s;
     background-color: var(--snow);
+}
+.cardShow .fixed{
+    border: 1px solid var(--primary);
 }
 .cardFoot .btn-link-noBorder:hover{
     font-size: initial;
@@ -17,34 +19,8 @@
     flex-direction: column;
 }
 
-.cardHead {
-    color: var(--primary);
-}
-
-.cardSubHead {
-    font-size: small;
-    padding: 0.5rem 0 1rem 1rem;
-}
-
-.cardButton {
-    max-width: 30px;
-    cursor: pointer;
-    align-self: flex-end;
-}
-
-.cardButton:hover {
-    background-color: rgb(175, 174, 174);
-    border-radius: 50px;
-}
-
-.cardContent {
-    margin: 0.5rem;
-    padding: 0 0 0 0.5rem;
-}
-
 .cardFoot {
     display: flex;
     justify-content: space-around;
-    margin: 1rem 0 0 0;
     align-items: center;
 }
