@@ -25,6 +25,7 @@
 }
 .cardPic {
   height: 20rem;
+  position: relative;
 }
 .cardPic img {
   height: 100%;
@@ -47,12 +48,21 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.horizontalCard .cardContainer .cardPic {
-  width: 40rem;
+.horizontalCard .cardPic {
+  width: 45rem;
 }
-
+.overlayBg {
+  background-color: var(--snow);
+  opacity: 0.6;
+}
+.overlay {
+  text-align: center;
+  position: absolute;
+  color: var(--darc);
+  bottom: 0;
+}
 .cardFoot .btn-link-noBorder:hover {
-  font-size: initial;
+  font-size: inherit;
   background-color: var(--dark-peach);
 }
 
