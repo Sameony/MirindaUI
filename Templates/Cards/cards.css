@@ -1,26 +1,75 @@
-.cardShow{
-    background-color: var(--peach);
-    display: flex;
+.cardShow {
+  background-color: var(--peach);
+  display: flex;
 }
+
 .cardContainer {
-    max-width: 20rem;
-    transition: all ease 0.4s;
-    background-color: var(--snow);
-}
-.cardShow .fixed{
-    border: 1px solid var(--primary);
-}
-.cardFoot .btn-link-noBorder:hover{
-    font-size: initial;
-    background-color: var(--dark-peach);
+  max-width: 20rem;
+  transition: all ease 0.4s;
+  background-color: var(--snow);
+  position: relative;
 }
 .partialCard {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+.offerProduct {
+  background-color: var(--primary);
+  color: var(--snow);
+  position: absolute;
+  text-align: center;
+}
+
+.cardShow .fixed {
+  border: 1px solid var(--primary);
+}
+.cardPic {
+  height: 20rem;
+}
+.cardPic img {
+  height: 100%;
+  width: 100%;
+}
+.productPrice {
+  color: var(--success);
+}
+
+.horizontalCard .cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 40rem;
+  align-content: space-between;
+}
+
+.horizontalCard .partialCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.horizontalCard .cardContainer .cardPic {
+  width: 40rem;
+}
+
+.cardFoot .btn-link-noBorder:hover {
+  font-size: initial;
+  background-color: var(--dark-peach);
 }
 
 .cardFoot {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.crossProduct {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--gray);
+  cursor: pointer;
+}
+.crossProduct:hover {
+  background-color: var(--light-gray);
+  border-radius: 8px;
 }
