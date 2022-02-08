@@ -5,123 +5,130 @@
 @import url(/Styles/utilities.css);
 @import url(/Templates/Inputs/inputs.css);
 @import url(/Templates/Cards/cards.css);
+@import url(/Templates//Ratings/ratings.css);
+
 :root {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .prim-color {
-    color: var(--primary);
+  color: var(--primary);
+}
+.caution-color {
+  color: var(--light-caution);
+}
+.success-color {
+  color: var(--success);
 }
 
 .header {
-    position: relative;
-    z-index: 1;
-    color: var(--peach);
-    background-color: var(--darc);
-    height: 5rem;
-    transition: all 0.5s ease-in;
+  position: relative;
+  z-index: 1;
+  color: var(--peach);
+  background-color: var(--darc);
+  height: 5rem;
+  transition: all 0.5s ease-in;
 }
 
 .drawer {
-    position: fixed;
-    width: 5rem;
-    top: 0;
-    transition: all 0.5s ease-in;
-    height: 100%;
+  position: fixed;
+  width: 5rem;
+  top: 0;
+  transition: all 0.5s ease-in;
+  height: 100%;
 }
 
 .navigation {
-    width: 5rem;
-    height: 100%;
-    background-color: white;
-    color: var(--darc);
-    border-radius: 5px;
-    transition: all 0.5s ease-in;
+  width: 5rem;
+  height: 100%;
+  background-color: white;
+  color: var(--darc);
+  border-radius: 5px;
+  transition: all 0.5s ease-in;
 }
 
 .navigation ul {
-    width: 100%;
-    position: relative;
-    top: 6.5rem;
+  width: 100%;
+  position: relative;
+  top: 6.5rem;
 }
 
 .navigation ul li {
-    width: 100%;
+  width: 100%;
 }
 
 .navigation ul li:hover {
-    background-color: var(--dark-peach);
+  background-color: var(--dark-peach);
 }
 
 .navigation ul li a {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
-
 .navigation .smol-ico {
-    position: relative;
-    min-width: 5rem;
-    height: 4rem;
-    line-height: 4rem;
-    text-align: center;
-    font-size: x-large;
-    margin-right: 9px;
+  position: relative;
+  min-width: 5rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: x-large;
+  margin-right: 9px;
 }
 
 .navigation .smol-title {
-    line-height: 4rem;
-    white-space: nowrap;
-    display: none;
+  line-height: 4rem;
+  white-space: nowrap;
+  display: none;
 }
 
 .btn-toggle-drawer {
-    background-color: var(--primary);
-    position: absolute;
-    width: 3rem;
-    height: 3rem;
-    top: calc(50% - 1.5rem);
-    right: -2.5rem;
-    border: 3px solid white;
-    border-top-right-radius: 100%;
-    border-bottom-right-radius: 100%;
-    cursor: pointer;
+  background-color: var(--primary);
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: calc(50% - 1.5rem);
+  right: -2.5rem;
+  border: 3px solid white;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  cursor: pointer;
 }
 
 .btn-toggle-drawer .open-ico {
-    display: none;
+  display: none;
 }
 
 .btn-toggle-drawer .ico {
-    position: absolute;
-    left: 10px;
-    width: 2rem;
-    font-size: 2rem;
-    color: var(--peach);
+  position: absolute;
+  left: 10px;
+  width: 2rem;
+  font-size: 2rem;
+  color: var(--peach);
 }
 
 .container {
-    width: calc(100% - 17rem);
-    padding-left: 10rem;
-    color: var(--darc);
-    transition: all 0.5s ease-in;
+  width: calc(100% - 17rem);
+  padding-left: 10rem;
+  color: var(--darc);
+  transition: all 0.5s ease-in;
 }
 
 .footer {
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 3rem;
-    color: var(--peach);
-    background-color: var(--darc);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 3rem;
+  color: var(--peach);
+  background-color: var(--darc);
 }
 
 .footer .btn-link {
-    margin-bottom: 0;
-    padding: 0;
+  margin-bottom: 0;
+  padding: 0;
 }
