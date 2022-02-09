@@ -6,10 +6,7 @@
 @import url(/Templates/Inputs/inputs.css);
 @import url(/Templates/Cards/cards.css);
 @import url(/Templates//Ratings/ratings.css);
-
-:root {
-  font-size: 16px;
-}
+@import url(/Templates/Snackbar/snackbar.css);
 
 body {
   font-family: "Poppins", sans-serif;

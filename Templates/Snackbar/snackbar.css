@@ -1,0 +1,38 @@
+.snack {
+  background-color: var(--dark-gray);
+  max-width: 50rem;
+  color: var(--snow);
+  border-radius: 5px;
+  box-shadow: 6px 6px 9px var(--gray);
+}
+.normalSnack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stackedSnack {
+  flex-direction: column;
+}
+.secondarySnack {
+  display: flex;
+  align-items: center;
+}
+
+.rightSnack {
+  justify-content: space-around;
+}
+.botSnack {
+  justify-content: flex-start;
+}
+.snackLink {
+  text-decoration: none;
+  cursor: pointer;
+}
+.cross {
+  cursor: pointer;
+  transition: ease-in 0.5s;
+}
+.cross:hover {
+  background-color: var(--dark-gray);
+  border-radius: 5px;
+}
