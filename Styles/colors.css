@@ -14,13 +14,19 @@
   --light-gray: #efefef;
 
   --lemon: #faf431;
+  --light-lemon: #fcfacf;
+  --darker-lemon: #f8f481;
   --snow: #ffffff;
 
+  --dark-caution: #922f2a;
   --caution: #d0342c;
   --light-caution: #ff0000;
+  --slight-caution: #f58787;
 
+  --dark-success: #306d2c;
   --success: #4bb543;
   --lighter-success: #23da23;
+  --slight-success: #c5f7c5;
 
   --blu: #42c0fb;
   --darker-blu: #3299cc;
