@@ -8,6 +8,7 @@
 @import url(/Templates//Ratings/ratings.css);
 @import url(/Templates/Snackbar/snackbar.css);
 @import url(/Templates/Avatars/avatars.css);
+@import url(/Templates/Alerts/alert.css);
 
 body {
   font-family: "Poppins", sans-serif;
