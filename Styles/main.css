@@ -8,9 +8,10 @@
 @import url(/Templates//Ratings/ratings.css);
 @import url(/Templates/Snackbar/snackbar.css);
 @import url(/Templates/Avatars/avatars.css);
+@import url(/Templates/Alerts/alert.css);
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 .prim-color {
@@ -133,4 +134,32 @@ body {
 .footer .btn-link {
   margin-bottom: 0;
   padding: 0;
+}
+.hehe {
+  background-color: var(--darc);
+  height: 100vh;
+}
+.landHere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  color: var(--snow);
+}
+.landContent {
+  width: 30rem;
+}
+.imageInside {
+  height: 20rem;
+}
+.imageInside img {
+  height: 100%;
+}
+.hehe .btn-link {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: none;
+  width: 55%;
+  padding: 0.8rem 0;
 }
