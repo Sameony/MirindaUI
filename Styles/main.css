@@ -135,18 +135,18 @@ body {
   margin-bottom: 0;
   padding: 0;
 }
-.hehe {
+.landingPage {
   background-color: var(--darc);
   height: 100vh;
 }
-.landHere {
+.landBox {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 85vh;
   color: var(--snow);
 }
-.landContent {
+.landingDescription {
   width: 30rem;
 }
 .imageInside {
@@ -155,7 +155,7 @@ body {
 .imageInside img {
   height: 100%;
 }
-.hehe .btn-link {
+.landingPage .btn-link {
   display: block;
   margin: auto;
   text-align: center;
