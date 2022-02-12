@@ -138,10 +138,10 @@ body {
 .landingPage {
   height: 100vh;
   font-size: 24px;
+  background-color: var(--darc);
 }
 .landBox {
   font-family: "Montserrat Alternates", sans-serif;
-  background-color: var(--darc);
   display: flex;
   justify-content: center;
   align-items: center;
