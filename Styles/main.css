@@ -10,7 +10,7 @@
 @import url(/Templates/Avatars/avatars.css);
 @import url(/Templates/Alerts/alert.css);
 @import url(/Templates/Badges/badge.css);
-
+@import url(/Templates/Images/images.css);
 body {
   font-family: "Poppins", sans-serif;
 }
