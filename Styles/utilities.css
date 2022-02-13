@@ -27,13 +27,13 @@
 .gray-color {
   color: var(--gray);
 }
-.texteft {
+.textLeft {
   text-align: left;
 }
-.textight {
+.textRight {
   text-align: right;
 }
-.textenter {
+.textCenter {
   text-align: center;
 }
 
