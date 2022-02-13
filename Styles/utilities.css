@@ -13,6 +13,30 @@
   color: var(--snow);
   padding: 0 0.4rem;
 }
+/* text-utilities */
+
+.prim-color {
+  color: var(--primary);
+}
+.caution-color {
+  color: var(--light-caution);
+}
+.success-color {
+  color: var(--success);
+}
+.gray-color {
+  color: var(--gray);
+}
+.texteft {
+  text-align: left;
+}
+.textight {
+  text-align: right;
+}
+.textenter {
+  text-align: center;
+}
+
 /* paddings */
 .pd-l-sm {
   padding-left: 0.5rem;
