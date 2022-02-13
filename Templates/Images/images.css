@@ -11,6 +11,4 @@
 }
 .imageResponsive {
   width: 50rem;
-  object-fit: cover;
-  max-width: 100%;
 }
