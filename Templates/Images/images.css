@@ -1,0 +1,14 @@
+.imageWrap {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+.imageRound {
+  border-radius: 50%;
+}
+.responsiveWrap {
+  margin: auto;
+}
+.imageResponsive {
+  width: 50rem;
+}
