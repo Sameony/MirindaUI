@@ -23,6 +23,7 @@ body {
   transition: all 0.5s ease-in;
 }
 
+/* sidebar */
 .drawer {
   position: fixed;
   width: 5rem;
@@ -46,6 +47,7 @@ body {
   width: 100%;
   position: relative;
   top: 6.5rem;
+  padding-bottom: 4rem;
 }
 
 .navigation ul li {
@@ -102,6 +104,7 @@ body {
   color: var(--peach);
 }
 
+/* main content container */
 .container {
   width: calc(100% - 17rem);
   padding-left: 10rem;

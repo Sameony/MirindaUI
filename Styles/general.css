@@ -47,3 +47,21 @@ body {
   overflow-wrap: break-word;
   scroll-behavior: smooth;
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--snow);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--darker-prim);
+}
