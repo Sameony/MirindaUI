@@ -163,13 +163,15 @@ body {
 .imageInside img {
   height: 100%;
 }
-.landingPage .btn-link {
-  display: block;
+.connectorLink {
+  border-radius: 2px;
+  white-space: nowrap;
   margin: auto;
   text-align: center;
-  border: none;
-  width: 55%;
+  max-width: 80%;
+  background-color: var(--snow);
   padding: 0.8rem 0;
+  overflow-x: auto;
 }
 .landingPage .btn-link:hover {
   font-size: inherit;
@@ -183,6 +185,9 @@ body {
   .landingContent {
     margin: 0.5rem 0;
   }
+  .connectorLink {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -191,6 +196,9 @@ body {
   }
   .landingContent {
     text-align: center;
+  }
+  .connectorLink {
+    font-size: 18px;
   }
 }
 
@@ -209,6 +217,9 @@ body {
   .landingDescription,
   .landingPage .btn-link {
     font-size: 20px;
+  }
+  .connectorLink {
+    font-size: 16px;
   }
 }
 
