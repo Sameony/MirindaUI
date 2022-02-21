@@ -15,6 +15,7 @@
 @import url(/Templates/Grids/grids.css);
 @import url(/Templates/Lists/lists.css);
 @import url(/Templates/Modal/modal.css);
+@import url(/Templates/Navigation/navigation.css);
 body {
   font-family: "Poppins", sans-serif;
 }
