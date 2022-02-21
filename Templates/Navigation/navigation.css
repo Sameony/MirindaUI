@@ -1,0 +1,51 @@
+.navBar {
+  background-color: var(--darc);
+  color: var(--snow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar h1 {
+  cursor: pointer;
+}
+.navBar .badgeWrap {
+  cursor: pointer;
+}
+.rightNav {
+  display: flex;
+}
+.rightNav .badgeWrap {
+  padding: 0.2rem;
+}
+.rightNav .btn {
+  align-self: center;
+}
+.boxInput {
+  width: 32rem;
+  display: flex;
+  align-items: center;
+}
+.navBar .btn {
+  background-color: var(--light-gray);
+  border-color: var(--light-gray);
+  color: var(--darc);
+}
+.navBar .btn:hover {
+  background-color: var(--lighter-gray);
+  border-color: var(--lighter-gray);
+}
+.searchBox {
+  width: 80%;
+}
+.rightBurger {
+  display: none;
+}
+
+@media only screen and (max-width: 860px) {
+  .rightBurger {
+    display: block;
+  }
+  .rightNav {
+    display: none;
+  }
+}
