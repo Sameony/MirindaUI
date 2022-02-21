@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheets and icon imports -->
+    <link rel="stylesheet" href="/Styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
+    <link rel="shortcut icon" href="/Assets/Images/landingPic.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c61125ee40.js" crossorigin="anonymous"></script>
+
+    <title>Slider | Mirinda</title>
+</head>
+
+<body>
+
+    <header class="header pd-x-md pd-t-md">
+        <h1 class="pd-t-md"> Mirinda<span class="prim-color">UI</span> </h1>
+    </header>
+
+
+    <div class="drawer">
+        <div class="navigation shadows">
+            <ul class="prim-color">
+                <li title="Introduction">
+                    <a href="/Templates/Introduction/introduction.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-play"></i>
+                        </span>
+                        <span class="smol-title"> Introduction </span>
+                    </a>
+                </li>
+                <li title="Avatars">
+                    <a href="/Templates/Avatars/avatar.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-users"></i>
+                        </span>
+                        <span class="smol-title"> Avatars </span>
+                    </a>
+                </li>
+                <li title="Alerts">
+                    <a href="/Templates/Alerts/Alert.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-exclamation-circle"></i>
+                        </span>
+                        <span class="smol-title"> Alert </span>
+                    </a>
+                </li>
+                <li title="Badges">
+                    <a href="/Templates/Badges/Badge.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-ribbon"></i>
+                        </span>
+                        <span class="smol-title"> Badges </span>
+                    </a>
+                </li>
+                <li title="Buttons">
+                    <a href="/Templates/Buttons/buttons.html">
+                        <span class="smol-ico">
+                            <i class="fa-regular fa-hand-pointer"></i>
+                        </span>
+                        <span class="smol-title"> Buttons </span>
+                    </a>
+                </li>
+                <li title="Card">
+                    <a href="/Templates/Cards/cards.html">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-id-badge"></i>
+                        </span>
+                        <span class="smol-title"> Card </span>
+                    </a>
+                </li>
+
+                <li title="Grid">
+                    <a href="/Templates/Grids/grids.html">
+                        <span class="smol-ico">
+                            <i class="fa-solid fa-grip"></i>
+                        </span>
+                        <span class="smol-title"> Grid </span>
+                    </a>
+                </li>
+                <li title="Images">
+                    <a href="/Templates/Images/images.html">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-images"></i>
+                        </span>
+                        <span class="smol-title"> Images </span>
+                    </a>
+                </li>
+                <li title="Input">
+                    <a href="/Templates/Inputs/inputs.html">
+                        <span class="smol-ico">
+                            <i class="fs-l far fa-keyboard"></i>
+                        </span>
+                        <span class="smol-title"> Input </span>
+                    </a>
+                </li>
+                <li title="Ratings">
+                    <a href="/Templates/Ratings/ratings.html">
+                        <span class="smol-ico">
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <span class="smol-title"> Ratings </span>
+                    </a>
+                </li>
+                <li title="Slider">
+                    <a href="/Templates/Slider/slider.html">
+                        <span class="smol-ico">
+                            <i class="fs-l fas fa-sliders-h"></i>
+                        </span>
+                        <span class="smol-title"> Snackbar </span>
+                    </a>
+                </li>
+                <li title="Snackbars">
+                    <a href="/Templates/Snackbar/snackbar.html">
+                        <span class="smol-ico">
+                            <i class="fas fa-info-circle"></i>
+                        </span>
+                        <span class="smol-title"> Snackbar </span>
+                    </a>
+                </li>
+                <li title="Typography">
+                    <a href="/Templates/Typography/typography.html">
+                        <span class="smol-ico fw-xxl">
+                            Tt
+                        </span>
+                        <span class="smol-title"> Typography </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="btn-toggle-drawer">
+            <span class="ico closed-ico">
+                <i class="fas fa-chevron-circle-right"></i>
+            </span>
+            <span class="ico open-ico">
+                <i class="fas fa-chevron-circle-left"></i>
+            </span>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="pd-y-md mg-y-sm"> Slider
+        </h1>
+        <div class="contentArticle pd-y-sm">
+            Slider or range input is used to specify a particular range, out of which a user cannot select a value.
+            Inputs are means of getting data from user. So, in a sense, it can be said inputs are also a way for user to
+            interact with the interface of the website. The slider input is used when the exact value of input is not
+            the target from the user, rather, it targets a range of values.
+        </div>
+        <h2 class="contentHeader mg-y-sm">No step value</h2>
+        <div class="contentArticle pd-y-sm">
+            These are sliders that do not have any step value, and the transition is smooth.
+        </div>
+
+        <div class="cardShow flex-col sliderInp pd-lg">
+            <label for="Volume">Volume</label>
+            <input type="range" id="rangeInp" name="Volume" value="1200" min="0" max="10000">
+
+            <datalist id="tickmarks" class="flex flex-spc-btw fs-sm">
+                <option value="0" class="fw-lg" label="0"></option>
+                <option value="2500"></option>
+                <option value="5000" class="fw-lg" label="5K"></option>
+                <option value="7500"></option>
+                <option value="10000" class="fw-lg" label="10K"></option>
+            </datalist>
+
+
+        </div>
+        <pre>
+            <code class="showcase">
+    <div class="cardShow flex-col sliderInp pd-lg">
+        <label for="Volume">Volume</label>
+        <input type="range" id="rangeInp" name="Volume" value="1200" min="0" max="10000">
+        <datalist id="tickmarks" class="flex flex-spc-btw fs-sm">
+            <option value="0" class="fw-lg" label="0"></option>
+            <option value="2500" ></option>
+            <option value="5000" class="fw-lg" label="5K"></option>
+            <option value="7500" ></option>
+            <option value="10000" class="fw-lg" label="10K"></option>
+        </datalist>
+    </div>
+            </code>
+        </pre>
+
+
+        <h2 class="contentHeader mg-y-sm">Minimum step value sliders</h2>
+        <div class="contentArticle pd-y-sm">
+            These are sliders that have a minimum step value for every stride of the slide.
+        </div>
+
+        <div class="cardShow flex-col sliderInp pd-lg">
+            <label for="Price">Price</label>
+            <input type="range" id="rangeInp" step="1000" name="Price" value="4200" min="0" max="10000">
+            <datalist id="tickmarks" class="flex flex-spc-btw fs-sm">
+                <option value="0" class="fw-lg" label="0"></option>
+                <option value="2500"></option>
+                <option value="5000" class="fw-lg" label="5K"></option>
+                <option value="7500"></option>
+                <option value="10000" class="fw-lg" label="10K"></option>
+            </datalist>
+        </div>
+
+        <pre>
+            <code class="showcase">
+    <div class="cardShow flex-col sliderInp pd-lg">
+        <label for="Price">Price</label>
+        <input type="range" id="rangeInp" step="1000" name="Price" value="4200" min="0" max="10000">
+        <datalist id="tickmarks" class="flex flex-spc-btw fs-sm">
+            <option value="0" class="fw-lg" label="0"></option>
+            <option value="2500" ></option>
+            <option value="5000" class="fw-lg" label="5K"></option>
+            <option value="7500" ></option>
+            <option value="10000" class="fw-lg" label="10K"></option>
+        </datalist>
+    </div>
+            </code>
+        </pre>
+    </div>
+
+    <footer class="footer">
+        <i class="far fa-copyright"></i> Created by <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl"
+            href="http://github.com/Sameony" target="_blank">Mohammed Sameer</a>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+
+</body>
+
+</html>

@@ -11,6 +11,8 @@
 @import url(/Templates/Alerts/alert.css);
 @import url(/Templates/Badges/badge.css);
 @import url(/Templates/Images/images.css);
+@import url(/Templates/Slider/slider.css);
+
 body {
   font-family: "Poppins", sans-serif;
 }
