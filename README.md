@@ -30,9 +30,9 @@ https://mirinda-mewi.netlify.app/styles/main.css
 ## Features
 
 ### Typography
- Tarang uses 3 fonts primarily 
+ Mirinda UI uses 3 fonts primarily 
 - `Montserrat Alternates` for H1, H2
--  `Montserrat` for all other heading tags and 
+- `Montserrat` for all other heading tags and 
 - `Poppins` for Paragraphs and BrandName. 
 
 ### Colors
@@ -52,10 +52,10 @@ https://mirinda-mewi.netlify.app/styles/main.css
  - Card
  - Image
  - Input
- - Text Utilities
  - Lists
  - Navigation
  - Modal
  - Rating
  - Toast
  - Grid layout
+ - Typography
