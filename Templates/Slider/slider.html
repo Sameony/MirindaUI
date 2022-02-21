@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirinda Input</title>
+    <!-- Stylesheets and icon imports -->
     <link rel="stylesheet" href="/Styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
     <link rel="shortcut icon" href="/Assets/Images/landingPic.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c61125ee40.js" crossorigin="anonymous"></script>
 
+    <title>Slider | Mirinda</title>
 </head>
 
 <body>
@@ -141,144 +143,84 @@
             </span>
         </div>
     </div>
-
     <div class="container">
-        <h1 class="pd-y-md mg-y-sm"> Inputs
+        <h1 class="pd-y-md mg-y-sm"> Slider
         </h1>
-
         <div class="contentArticle pd-y-sm">
+            Slider or range input is used to specify a particular range, out of which a user cannot select a value.
             Inputs are means of getting data from user. So, in a sense, it can be said inputs are also a way for user to
-            interact with the interface of the website.
+            interact with the interface of the website. The slider input is used when the exact value of input is not
+            the target from the user, rather, it targets a range of values.
         </div>
-        <h2 class="contentHeader mg-y-sm">Text Input fields</h2>
+        <h2 class="contentHeader mg-y-sm">No step value</h2>
         <div class="contentArticle pd-y-sm">
-            These are the basic input areas, and the basic necessity to get user to input custom data and not select an
-            answer from predefined options
+            These are sliders that do not have any step value, and the transition is smooth.
         </div>
 
-        <div class="contentInput">
-            <div class="boxInput mg-y-sm">
-                <label for="name" class="boxLabel">Name</label>
-                <input type="text" id="name" class="itemInput fs-lg">
-            </div>
-            <div class="boxInput">
-                <label for="password" class="boxLabel">Password</label>
-                <input type="password" id="password" class="itemInput fs-lg">
-            </div>
-        </div>
+        <div class="cardShow flex-col sliderInp pd-lg">
+            <label for="Volume">Volume</label>
+            <input type="range" id="rangeInp" name="Volume" value="1200" min="0" max="10000">
 
+            <datalist id="tickmarks" class="flex flex-spc-btw fs-sm">
+                <option value="0" class="fw-lg" label="0"></option>
+                <option value="2500"></option>
+                <option value="5000" class="fw-lg" label="5K"></option>
+                <option value="7500"></option>
+                <option value="10000" class="fw-lg" label="10K"></option>
+            </datalist>
+
+
+        </div>
         <pre>
-                <code class="html showcase">
-        <div class="contentInput">
-            <div class="boxInput mg-y-sm">
-                <label for="name" class="boxLabel">Name</label>
-                <input type="text" id="name" class="itemInput fs-lg">
-            </div>
-            <div class="boxInput">
-                <label for="password" class="boxLabel">Password</label>
-                <input type="password" id="password" class="itemInput fs-lg">
-            </div>
-        </div>
-                </code>
-            </pre>
-
-
-        <h2 class="contentHeader mg-y-sm">Validated Inputs</h2>
-        <div class="contentArticle pd-y-sm">
-            These are styled according to response to a validation function, whether validation was
-            a success or a failure.
-        </div>
-
-        <div class="contentInput">
-            <div class="boxInput mg-y-sm">
-                <label for="name" class="boxLabel">Name</label>
-                <input type="text" id="name" class="itemInput validateSuccess fs-lg"><br>
-                <span class="successMessage fs-sm"><i class="fas fa-check-circle"></i>This username is available.</span>
-            </div>
-            <div class="boxInput">
-                <label for="password" class="boxLabel">Password</label>
-                <input type="password" id="password" class="itemInput validateFailure fs-lg"><br>
-                <span class="cautionMessage fs-sm"><i class="fas fa-times-circle"></i>The password you entered is
-                    invalid.</span>
-            </div>
-        </div>
-
-        <pre>
-                    <code class="html showcase">
-        <div class="contentInput">
-            <div class="boxInput mg-y-sm">
-                <label for="name" class="boxLabel">Name</label>
-                <input type="text" id="name" class="itemInput validateSuccess fs-lg"><br>
-                <span class="successMessage fs-sm">
-                <i class="fas fa-check-circle"></i>This username is available.
-                </span>
-            </div>
-            <div class="boxInput">
-                <label for="password" class="boxLabel">Password</label>
-                <input type="password" id="password" class="itemInput validateFailure fs-lg"><br>
-                <span class="cautionMessage fs-sm">
-                <i class="fas fa-times-circle"></i>The password you entered is invalid.
-                </span>
-            </div>
-        </div>
-                    </code>
-                </pre>
-
-        <h2 class="contentHeader mg-y-sm">Radio And CheckBox</h2>
-        <div class="contentArticle pd-y-sm">
-            These are inputs which are obtained from user from a specific pre-defined set of options.
-        </div>
-
-        <div class="contentInput">
-            <h4>Guess what sound does the cat make?</h4>
-            <div class="boxInput mg-y-sm">
-                <input class="mg-x-sm" type="radio" name="voice" id="cat">
-                <label for="cat">Meow</label>
-                <input class="mg-x-sm" type="radio" name="voice" id="dog">
-                <label for="dog">Bark</label>
-                <input class="mg-x-sm" type="radio" name="voice" id="frog">
-                <label for="frog">Croak</label>
-            </div>
-            <h4>I would like to buy the following items:</h4>
-            <div class="boxInput mg-y-sm">
-                <input type="checkbox" name="contact" id="text">
-                <label class="mg-x-sm" for="text">Chocolate</label>
-                <input type="checkbox" name="contact" id="text">
-                <label class="mg-x-sm" for="text">Socks</label>
-                <input type="checkbox" name="contact" id="text">
-                <label class="mg-x-sm" for="text">Dirt</label>
-            </div>
-
-        </div>
-
-        <pre>
-            <code class="html showcase">
-        <div class="contentInput">
-            <div class="boxInput mg-y-sm">
-                <input class="mg-x-sm" type="radio" name="voice" id="cat">
-                <label for="cat">Meow</label>
-                <input class="mg-x-sm" type="radio" name="voice" id="dog">
-                <label for="dog">Bark</label>
-                <input class="mg-x-sm" type="radio" name="voice" id="frog">
-                <label for="frog">Croak</label>
-            </div>
-            <div class="boxInput mg-y-sm">
-                <input type="checkbox" name="shopping" id="choco">
-                <label class="mg-x-sm" for="choco">Chocolate</label>
-                <input type="checkbox" name="shopping" id="sock">
-                <label class="mg-x-sm" for="sock">Socks</label>
-                <input type="checkbox" name="shopping" id="dirt">
-                <label class="mg-x-sm" for="dirt">Dirt</label>
-            </div>
-
-        </div>
+            <code class="showcase">
+    <div class="cardShow flex-col sliderInp pd-lg">
+        <label for="Volume">Volume</label>
+        <input type="range" id="rangeInp" name="Volume" value="1200" min="0" max="10000">
+        <datalist id="tickmarks" class="flex flex-spc-btw fs-sm">
+            <option value="0" class="fw-lg" label="0"></option>
+            <option value="2500" ></option>
+            <option value="5000" class="fw-lg" label="5K"></option>
+            <option value="7500" ></option>
+            <option value="10000" class="fw-lg" label="10K"></option>
+        </datalist>
+    </div>
             </code>
         </pre>
 
 
+        <h2 class="contentHeader mg-y-sm">Minimum step value sliders</h2>
+        <div class="contentArticle pd-y-sm">
+            These are sliders that have a minimum step value for every stride of the slide.
+        </div>
+
+        <div class="cardShow flex-col sliderInp pd-lg">
+            <label for="Price">Price</label>
+            <input type="range" id="rangeInp" step="1000" name="Price" value="4200" min="0" max="10000">
+            <datalist id="tickmarks" class="flex flex-spc-btw fs-sm">
+                <option value="0" class="fw-lg" label="0"></option>
+                <option value="2500"></option>
+                <option value="5000" class="fw-lg" label="5K"></option>
+                <option value="7500"></option>
+                <option value="10000" class="fw-lg" label="10K"></option>
+            </datalist>
+        </div>
+
+        <pre>
+            <code class="showcase">
+    <div class="cardShow flex-col sliderInp pd-lg">
+        <label for="Price">Price</label>
+        <input type="range" id="rangeInp" step="1000" name="Price" value="4200" min="0" max="10000">
+        <datalist id="tickmarks" class="flex flex-spc-btw fs-sm">
+            <option value="0" class="fw-lg" label="0"></option>
+            <option value="2500" ></option>
+            <option value="5000" class="fw-lg" label="5K"></option>
+            <option value="7500" ></option>
+            <option value="10000" class="fw-lg" label="10K"></option>
+        </datalist>
     </div>
-
-
+            </code>
+        </pre>
+    </div>
 
     <footer class="footer">
         <i class="far fa-copyright"></i> Created by <a class="btn-link btn-link-noBorder mg-y-sm fw-xxxl"
