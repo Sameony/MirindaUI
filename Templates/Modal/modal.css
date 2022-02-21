@@ -1,0 +1,6 @@
+.modal {
+  width: 25rem;
+  background-color: var(--primary);
+  color: var(--snow);
+  border-radius: 2px;
+}
