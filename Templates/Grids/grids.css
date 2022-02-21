@@ -1,0 +1,12 @@
+.gridBox {
+  padding: 2rem;
+  color: var(--snow);
+  background-color: var(--primary);
+  border-radius: 3px;
+}
+.autofitGrid {
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+.autofillGrid {
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
